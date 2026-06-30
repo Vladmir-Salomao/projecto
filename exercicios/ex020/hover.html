@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id e classes</title>
+    <style>
+        #d1{
+            background-color: yellow;
+
+        }
+        .d1{
+            background-color: bisque;
+        }
+        div{
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            border: 1px solid white;
+            display: inline-flex;
+        }
+        div > p {
+            display: none;
+        }
+        
+        div:hover>p{
+            display: block;
+            background-color: red;
+            padding: 2px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">1</div>
+    <div id="d1">2
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio maiores excepturi blanditiis quae odio rem odit distinctio libero, ut corrupti quaerat quidem ab debitis nihil fugiat architecto quis, asperiores facilis?
+        </p>
+    </div>
+    <div>3</div>
+</body>
+</html>

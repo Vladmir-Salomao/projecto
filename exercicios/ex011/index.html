@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body">
+    <h1>Imagens dinamicas</h1>
+    <p>e possivel adicionar imagens que se adatam de acordo com a tela do usuario basta adicionar a tag picture</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/photo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/photo-m.png" type="image/png">
+        <img src="imagens/photo-g.png" alt="">
+    </picture>
+    <h1>adicionando audio</h1>
+    <p>podemos adicionar audio em html usando a tag &lt;audio&gt;</p>
+    <audio controls preload="metadata" loop>
+        <source src="medias/Adam_Oh_-_Trapped_In_My_Mind_Lyrics__Lyric_Video - 10Convert.com.mp4.mp4" type="audio/ogg">
+
+    </audio>
+</body>
+</html>

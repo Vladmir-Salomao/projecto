@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    color: white;
+}
+.banner{
+    height: 37vw;
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(-220deg,#3198e2 3%, #6d59c0, #b93590, #e33f5f, #ff9c07 97%);
+    box-shadow:2px 2px 20px rgba(0, 0, 0, 0.507);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 3%;
+}
+.logo h1{
+    font-size: 2vw;
+}
+nav,nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+li{
+    margin-left: 2.5rem;
+    font-weight: 600;
+    font-size: 1.3vw;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.fundo{
+    display: flex;
+    padding-left:  8%;
+    height: 30vw;
+    height: 30vw;
+    padding-top: 50px;
+}
+.f-txt,.f-img{
+    width: 40vw;
+    height: 30vw;
+}
+.f-txt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+}
+h2{
+    font-size: 2.5vw;
+}
+.f-txt p{
+    font-size: 0.8vw;
+    font-weight: 500;
+    width: 40rem;
+    margin-top: 10px;
+}
+.f-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-1,.a-2{
+    border: 1vw solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    overflow: hidden;
+    position: absolute;
+}
+.a-1{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 6vw;
+}
+.a-2{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+.a-3{
+    border-radius: 50%;
+    position: absolute;
+    border: 1vw solid;
+    top: 60px;
+    right: 45px;
+}
+button{
+    position: absolute;
+    padding: rem;
+    width: 17vw;
+    height: 3vw;
+    margin-top: rem;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 60px;
+    border: none;
+    top: 35px;
+    transition: 0.2s ease;
+    color: #3198e2;
+
+
+}
+.logo-g{
+    position: relative;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 15%;
+    top: 1%;
+}
+.botao{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: end;
+    position: relative;
+}
+button:hover{
+    background-color: #e33f5f;
+    color: white;
+}
+nav ul li:hover{
+    background-color:  #e33f5f;
+    padding: 0px 5px 0px 5px;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right,#102855,#2e4f85);
+    padding-top: 8rem;
+}
+main{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 2px 2px 20px;
+}
+h1{
+    color: #cf8e0c;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-decoration: underline;
+    background-color: #2e4f85;
+}
+p{
+    text-align: justify;
+}
+div{
+    background-color: red;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 2rem;
+    color: greenyellow;
+    text-decoration: underline;
+
+
+}

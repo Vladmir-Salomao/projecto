@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        html{
+            font: normal 500 16px poppins;
+        }
+        *{
+            padding: 0;
+        }
+
+        ul{
+            list-style: none;
+            width: 200px;
+            border: 1px solid green;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            padding: 5px;
+            background-color: rgb(20, 160, 15);
+            color: white;
+            display: block;
+        }
+        /*
+        Selectores
+
+        :: = "pseudo-elementos": servem para selecionar e adicionar  conteudos pelo css sem mexer no html
+
+        : = "pseudo-class": servem para selecionar ações ao manipular um elemento 
+
+        > = "child": serve para selecionar elementos que especifico dentro de uma tag
+
+        # = "id":serve para dar um nome unico a um elemento html
+
+        . = "class": serve para adicionar classes a elementos e agrupa-los
+        
+        */
+        #pri{
+            background-color: red;
+        }
+        .importante{
+            background-color: orange;
+        }
+        .importante::after{
+            content: " [vladmir]";
+            color: rgb(175, 122, 22);
+        }
+        #pri::before{
+            content: "[tropa] ";
+            color: rgb(209, 34, 34);
+        }
+        .importante:active{
+            background-color: black;
+            color: red;
+        }
+        a:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalisando links</h1>
+    <ul>
+        <li><a href="https://youtube.com/cursoemvideo/" id="pri" target="_blank">canal de tecnologia</a></li>
+
+        <li><a href="https://youtube.com/Horas_de_negocio/" class="importante" target="_blank">canal de negócios</a></li>
+
+        <li><a href="https://youtube.com/academia/" target="_blank">exercicios</a></li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    background-color: #4545f1;
+}
+h1{
+    background-color: yellow;
+    color: red;
+}
+h2{
+color: blue;
+background-color: aquamarine;
+}
+p{
+    text-align: justify;
+}
+a{
+    background-color: gold;
+}
