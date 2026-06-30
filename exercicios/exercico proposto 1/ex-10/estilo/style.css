@@ -26,8 +26,7 @@
     --font-android: android;
 }
 body{
-    background-color: BLACK;
-    color: WHITE;
+    background-color: var(--cor0);
 
 }
 header{
