@@ -26,7 +26,9 @@
     --font-android: android;
 }
 body{
-    background-color: var(--cor0);
+    background-color: BLACK;
+    color: WHITE;
+
 }
 header{
     background-image: linear-gradient(to bottom,var(--cor3),var(--cor4));
