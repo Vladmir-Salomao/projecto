@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            background-image: url(imagens/pattern003.png);
+            background-repeat: repeat;
+            justify-content: center;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 5px;
+            display: inline-block;
+        }
+        #c{
+            display: flex;
+            justify-content: center;
+            padding-top: 200px;
+            width: 800px;
+            height: 400px;
+            background-color: aliceblue;
+        }
+        
+        .a{
+            background-image: url(imagens/pattern003.png);
+            background-size: 40px;
+        }
+        #q1{
+            background-repeat: no-repeat;
+        }
+        #q2 {
+            background-repeat: repeat-x;
+        }
+         #q3 {
+            background-repeat: repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <div id="c">
+        <div class="a" id="q1"></div>
+        <div class="a" id="q2"></div>
+        <div class="a" id="q3"></div>
+    </div>
+</body>
+</html>
