@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>centralizar conteudo sem flexbox</title>
     <style>
-        :root{
-            --cor1: blue;
+        *{
+            margin: 0;
+            padding: 0;
         }
         div{
             background: url(imagens/target001.png) no-repeat center/cover;
         }
         #a{
-            width: 300px;
-            height: 300px;
-            background-color: var(--cor1);
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
         }
         #b{
-            height: 98vh;
             background-color: yellow;
+            height:100vh;
+            
         }
     </style>
 </head>
