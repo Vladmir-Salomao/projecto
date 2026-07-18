@@ -1,54 +1,60 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font1: helvetica,arial,sans-serif;
+    --font2: passion one;
+    --font3: bubblegum sans;
 }
 html,body{
-    background: darkgray;
-    min-height: 100vh;
+    background-color: darkgray;
 }
 header{
-    padding-top: 50px;
-    padding-bottom: 50px;
     background: black;
     color: white;
     text-align: center;
 }
-
-h1{
+header h1{
+    padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 header a,footer a{
     color: white;
-    text-decoration: 0;
-    font-weight: bolder;
+    text-decoration: none;
+    font-weight: bold;
 }
-header a:hover,footer a:hover{
-    text-decoration: underline;
+header p{
+    padding-bottom: 50px;
 }
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 10vh 30px;
     line-height: 2rem;
-    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 2em;
 }
-.normal{
+section.normal{
     background-color: white;
 }
-.imagem{
-    background-color: rgb(63, 63, 63);
+section.imagem{
+    background-color: rgb(29, 28, 28);
     color: white;
-    
 }
 .imagem p{
-    background: rgb(46, 46, 46);
-    width: 500px;
+    background: rgba(0, 0, 0, 0.316);
+    display: inline-block;
+    padding: 5px;
 }
 footer{
-    background: rgb(0, 0, 0);
+    background-color: black;
     color: white;
-    text-align: center ;
+    text-align: center;
     padding: 10px;
-
 }
