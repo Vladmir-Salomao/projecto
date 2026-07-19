@@ -43,7 +43,7 @@ header p{
 section{
     font-family: var(--font3);
     line-height: 2em;
-    font-size: 4vw;
+    font-size: 4.5vw;
     padding: 10vw 30px 10vh 30px;
     background-size: cover;
     background-attachment: fixed;
