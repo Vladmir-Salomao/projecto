@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site alheio</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: red;
+            color: white;
+        }
+        h1{
+            text-align: center
+        }
+        a{
+            color: white;
+            text-align: center;
+            display: block;
+            font-weight: bolder;
+            font-size: 2em;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: black;
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>site alheio</h1>
+    <a href="#" onclick="hack()">clique em mim</a>
+    <div></div>
+    <script>
+        function hack(){
+            a = document.querySelector("div");
+            a.innerHTML += "<p>Vladmir <input><button>cadastrar</button>";
+            alert("seus dados serão extraidos")
+        }
+        
+    </script>
+</body>
+</html>
