@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            width: 300px;
+            margin: auto;
+        }
+        fieldset{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>formulario de checkbox</h1>
+
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>sexo</legend>
+            <p><label for="m">Masculino</label>
+                <input type="radio" name="genero" id="m" value="homem">
+            </p><br>
+            <p><label for="f">Femenino</label>
+                <input type="radio" name="genero" id="f" value="mulher">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>desportos</legend>
+            <p>
+                <label for="basket">basket</label>
+                <input type="checkbox" name="basket" id="basket">
+            </p>
+            <p>
+                <label for="andebol">andebol</label>
+                <input type="checkbox" name="andebol" id="andebol">
+            </p>
+            <p>
+                <label for="mma">mma</label>
+                <input type="checkbox" name="mma" id="mma">
+            </p>
+            <p> 
+                <label for="box">box</label>
+                <input type="checkbox" name="box" id="box">
+            </p>
+            <p>
+                <label for="okey">okey</label>
+                <input type="checkbox" name="okey" id="okey">
+            </p>
+        </fieldset>
+        <input type="reset" value="reiniciar">
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>

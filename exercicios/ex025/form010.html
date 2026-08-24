@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculador de idade</title>
+</head>
+<body>
+   <form action="cadastro.php" method="get">
+    <fieldset>
+        <legend>calculador de idade</legend>
+        <p>
+            <label for="idade"></label>
+            <input type="number" name="anos" id="idade" placeholder="ano em que nasceu" oninput="resultado.innerHTML = 2026 - Number(idade.value)" min="0">
+        </p>
+        <p><label for="resultado">vc tem</label>
+            <output id="resultado"></output> anos de idade
+        </p>
+        <input type="reset" value="limpar"><input type="submit" value="enviar">
+    </fieldset>
+   </form>
+</body>
+</html>

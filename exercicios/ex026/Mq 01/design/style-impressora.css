@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+ul{
+    display: none;
+}
+
+h1,h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+article::after{
+    content: "vladmir";
+}
+p{
+    text-align: justify;
+}
+article{
+    padding: 50px;
+}
+body{
+    background-color: darkgray;
+}
+main{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+}

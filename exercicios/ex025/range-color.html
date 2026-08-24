@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>range e color</title>
+</head>
+<body>
+    <h1>range,color and files</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>o tudo</legend>
+            <div><label for="icor">Color:</label>
+                <input type="color" name="cor" id="icor" value="#0000ff">
+            </div>
+
+            <div><label for="ifoto">escolha sua foto</label>
+                <input type="file" name="foto" id="ifoto" value="pic">
+            </div>
+            <input type="range" name="taxa" id="" value="10" max="20">
+        </fieldset>
+        <input type="reset" value="reiniciar">
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>

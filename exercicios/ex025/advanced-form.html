@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>formulario nivel hard</h1>
+    <form action="cadastro.php" method="post">
+        <p><label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" required minlength="5" autocomplete="off" placeholder="email ou nume">
+        </p>
+        <p><label for="palavra-passe">Senha: </label>
+            <input type="password" name="senha" id="palavra-passe" required minlength="8" placeholder="palavra passe">
+        </p>
+        <p><label for="notas">notas</label>
+            <input type="number" name="notas" id="notas" required value="10" min="10" max="20">
+        </p>
+        <input type="date" name="" id=""  required>
+        <input type="month" name="" id="" required>
+        <br>
+        <input type="submit" value="cadastrar">
+        <input type="reset" value="limpar campos">
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario com output</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            padding: 10px;
+        }
+        form{
+            width: 400px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>formulario com output</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>quadro de soma</legend>
+            <p>
+                <label for="m">numero 1:</label>
+                <input type="number" name="numero" id="n1" required min="0" max="50" oninput="resultado.innerHTML = Number(n1.value) + Number(n2.value)">
+            </p>
+            <p>
+                <label for="m">numero 2:</label>
+                <input type="number" name="numero" id="n2" required min="0" max="50" oninput="resultado.innerHTML = Number(n1.value) + Number(n2.value)">
+            </p>
+            <p>
+                <label for="resultado">soma</label>
+                <output id="resultado">
+                    
+                </output>
+            </p>
+            <p><label for="nivek">nivel</label>
+            <input type="range" name="medidor" id="nivek" min="0" max="20" value="0" oninput="saida.innerHTML = Number(nivek.value)">
+                <output id="saida" ></output>
+        </p>
+        </fieldset>
+        <input type="reset" value="limpar">
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
