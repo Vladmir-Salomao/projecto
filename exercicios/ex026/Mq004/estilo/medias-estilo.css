@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 768px) {/*Tablet*/
+    body{
+        background-image: url(../imagens/back-tablet.jpg); 
+    }
+    #phone{display: none;}
+    #tablet{display: block;}
+    #tv{display: none;}
+    #pc{display: none;}
+    #print{display: none;}
+    
+}
+@media screen and (min-width: 768px) and (max-width: 992px){/*Pc*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: none;}
+    #pc{display: block;}
+    #print{display: none;}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){/*Tv*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+
+    }
+    main{
+        max-width: 500px;
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: block;}
+    #pc{display: none;}
+    #print{display: none;}
+}

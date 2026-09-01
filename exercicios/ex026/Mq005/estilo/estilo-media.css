@@ -1,0 +1,11 @@
+@media screen and (orientation: landscape){
+    li {
+        display: inline-block;
+    }
+    menu{
+        display: block;
+    }
+    button{
+        display: none;
+    }
+}
