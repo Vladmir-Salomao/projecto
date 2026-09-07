@@ -30,8 +30,13 @@
         </p>
     </main>
     <script>
-        
-        
+        function tela(){
+            if (window.innerWidth >= 768){
+                menu.style.display = "block"
+            } else {
+                menu.style.display = "none"
+            }
+        }
         function poe(){
             if (menu.style.display == "block"){
                 menu.style.display = "none"
