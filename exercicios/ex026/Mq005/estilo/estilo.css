@@ -27,7 +27,6 @@ button{
     display: block;
     margin: auto;
     padding: 5px;
-    width: 100px;
     border-radius: 50px;
     border: none;
 }
@@ -37,6 +36,7 @@ menu{
 
 a{
     display: block;
+    width:  100vw;
     text-align: center;
     background-color: gray;
     color: lightgray;
@@ -45,4 +45,27 @@ a{
 }
 li:first-child{
     margin-top: 5px;
+}
+li a:hover{
+    background-color: darkgray;
+    color: white;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+main{
+    background-color: white;
+    width: 95vw;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+p{
+    margin: 10px;
+    text-align: justify;
+    hyphens: auto;
+    text-indent: 30px;
 }

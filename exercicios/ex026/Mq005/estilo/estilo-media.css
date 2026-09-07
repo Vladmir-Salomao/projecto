@@ -1,5 +1,14 @@
-@media screen and (min-width:786px){
-    body{
-        background-color: red;
+@media screen and (min-width: 768px){
+    button{
+        display: none;
+    }
+    ul{
+        padding: 0 5px;
+    }
+    li{
+        display: inline-block;
+    }
+    menu{
+        display: block;
     }
 }
