@@ -5,4 +5,7 @@
     menu ul li{
         display: inline-block;
     }
+    menu{
+        display: block;
+    }
 }
