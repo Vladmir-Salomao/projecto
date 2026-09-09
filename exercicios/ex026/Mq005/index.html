@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="estilo/estilo-media.css" media="all">
     <title>Media Query</title>
 </head>
-<body onresize="tela()">
+<body onresize="janela()">
     <header>
         <h1>Meu site</h1>
-        <button onclick="poe()">menu</button>
+        <button onclick="apertou()" id="button">menu</button>
         <menu id="menu">
             <ul>
                 <li><a href="#">opção 1</a></li>
@@ -30,20 +30,22 @@
         </p>
     </main>
     <script>
-        function tela(){
-            if (window.innerWidth >= 768){
-                menu.style.display = "block"
-            } else {
-                menu.style.display = "none"
-            }
-        }
-        function poe(){
-            if (menu.style.display == "block"){
-                menu.style.display = "none"
+        function apertou(){
+            if(menu.style.display == "block"){
+                menu.style.display = "none";
             } else {
                 menu.style.display = "block"
             }
         }
-    </script>r
+        function janela(){
+            if(window.innerWidth >= 600){
+                menu.style.display ="block";
+                button.style.display = "none";
+            } else {
+                menu.style.display ="none";
+                button.style.display ="block";
+            }
+        }
+    </script>
 </body>
 </html>
