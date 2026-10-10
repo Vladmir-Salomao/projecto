@@ -1,0 +1,36 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: grid;
+    grid-template: repeat(3, 100px)/repeat(4, 1fr);
+    background-color: pink;
+    gap: 5px;
+    width: 600px;
+    margin: auto;
+}
+.caixa{
+    color: white;
+    overflow: scroll;
+    text-align: center;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.caixa1{
+    background-color: red;
+    grid-area: 1/1/2/5;
+}
+.caixa2{
+    background-color: blue;
+    grid-area: 2/1/4/3;
+}
+.caixa3{
+    background-color: green;
+    grid-area: 2/3/4/5;
+}
+body{
+    background-color: black;
+}

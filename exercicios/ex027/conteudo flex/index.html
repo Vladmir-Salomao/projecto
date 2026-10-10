@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conteudo flexiel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            padding: 10px;
+        }
+        main{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightgray;
+        }
+        h2{
+            margin: 5px 0;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: row wrap;
+            padding: 10px;
+        }
+        #bo{
+            flex-wrap: wrap-reverse;
+        }
+        .texto{
+            flex: 1 1 500px;
+            text-align: justify;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+            background-color: black;
+            margin: auto;
+            border: 2px solid red;
+        }
+        footer{
+            padding-top: 50px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Exemplo de texto flexivel</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptatibus numquam inventore magnam beatae eligendi voluptatum sed tempora modi quas nesciunt odit, harum quidem. Dicta similique reprehenderit dolores deleniti corporis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus necessitatibus corporis recusandae velit ipsam officiis sequi repellendus vel aspernatur beatae illo eveniet placeat, molestias dicta dolorum laborum quod ab fugiat.
+        </p>
+    </header>
+    <main>
+        <section class="conteudo" id="bo">
+            <div class="texto">
+                <h2>elemento media->text</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia iure quo ab maiores dolores quidem magni facere fugit officiis adipisci ex, incidunt minima quos unde totam harum excepturi doloribus maxime!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque quam provident, quia amet nesciunt nisi possimus voluptatem temporibus, hic atque et minima nostrum sed dolorem soluta repellat itaque aspernatur?
+                </p>
+            </div>
+            <img src="" alt="">
+        </section>
+        <section class="conteudo">
+            <div class="texto">
+                <h2>elemento texto midia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugit quia voluptate praesentium voluptatem ex similique eligendi molestiae voluptas quam quidem, omnis commodi architecto quod culpa expedita deleniti enim. Voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consectetur at cum error quidem, perferendis inventore vitae cumque, voluptatem nisi blanditiis doloribus libero explicabo dolorem nulla pariatur molestiae, iusto esse!</p>
+            </div>
+            <img src="" alt="">
+        </section>
+    </main>
+     <footer>
+         <h2>texto de teste</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam architecto illo at doloribus, magnam minima laboriosam aspernatur, eligendi dignissimos commodi, iusto facilis maiores. Minus cumque itaque expedita fugit corrupti!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptate quis! Dolores, placeat nihil corrupti illum suscipit aliquam esse, labore, magnam obcaecati maiores alias unde fugit tenetur expedita? Eaque, tempore?
+            </p>
+     </footer>
+</body>
+</html>
